@@ -1,0 +1,13 @@
+.buttonPosition {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.eventsView{
+  background: #f3f3f3!important;
+}
+
+.popup-info{
+  display: inline-block!important;
+}
