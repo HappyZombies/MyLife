@@ -1,5 +1,6 @@
 import Chance from "chance";
 import Actions from "./Actions";
+import School from "../utils/School"
 const chance = new Chance();
 
 class Player {
@@ -30,6 +31,8 @@ class Player {
         this.country = chance.country({ full: true });
         // actions object that increases stats based on their value.
         this.actions = new Actions();
+        // activities that will execute every year.
+        this.activities = [new School()]
 
     }
 }
